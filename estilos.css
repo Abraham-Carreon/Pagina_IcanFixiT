@@ -1,0 +1,267 @@
+*
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	body
+	{
+		background: #A0A0A4;
+	}
+	
+	header
+	{
+		position: relative;
+		margin: 20px auto;
+		width: 1000px;
+		height: 120px;
+		border-radius: 15%;
+		
+		
+		
+	}
+	
+	header .sinada
+	{
+		position: absolute;
+		top: 10px;
+		left: 30px;
+		width: 185px;
+		height: 95px;
+		background: #2A1FFF;
+		
+	}
+	
+	.inicial
+	{
+		position: absolute;
+		top: 30px;
+		right: 390px;
+		width: 200px;
+		height: 60px;
+		line-height: 60px;
+		font-family: Bahnschrift;
+		font-size: 28px;
+		text-align: center;
+		color: #000;
+		
+	}
+	
+	header .eslogan
+	{
+		position: absolute;
+		text-align: -webkit-center;
+		width: auto;
+		height: auto;
+		top: 20px;
+		left: 55px;
+		font-family: Bahnschrift;
+		font-size: 18px;
+		color: #000;
+	}
+	
+	.mensaje
+	{
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		width: 300px;
+		height: 80px;
+		
+		border-radius: 50%;	
+	}
+	
+	.tabla
+	{
+		position: relative;
+		margin: auto;
+		margin-bottom: 40px;
+		width: 1000px;
+		height: 48px;
+		background: none;
+		
+	}
+	.tabla p a
+	{
+		text-decoration: none;
+	}
+	
+	.boton
+	{
+		float: left;
+		font-family: Bahnschrift;
+		font-weight: bolder;
+		text-align: center;
+		line-height: 46px;
+		color: #FFFBF0;
+		font-size: 18px;
+		margin: 0 2px;
+		width: 190px;
+		height: 46px;
+		background: #454545;
+		border: solid 2px;
+		border-color: #FFFBF0;
+	}
+	#boton3
+	{
+		line-height: 23px;
+	}
+	
+	a .boton:hover
+	{
+		background: rgba(110, 106, 105 ,.3)
+	}
+	a .boton:active
+	{
+		background: rgba(170, 161, 180  ,1)
+	}
+	
+.publ
+{
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.publ ul
+{
+	display: flex;
+	padding: 0;
+	width: 200%;
+	
+	animation: cambio 10s infinite alternate;
+	animation-timing-function: ease-in;
+}
+
+.publ li
+{
+	margin: auto ;
+	width: 100%;
+	list-style: none;	
+}
+
+.publ img
+{
+	margin: auto;
+	width: 60%;
+}
+
+@keyframes cambio
+{
+	0% {margin: 0;}
+	20% {margin: 0;}
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	//75% {margin-left: -300%;}
+	//100% {margin-left: -300%;}
+	
+}
+			
+	.productos
+	{
+		position: relative;
+		margin-top: 10px;
+		width: auto;
+		height: 250px;
+		background: #000;
+	}
+	
+	.productos table
+	{
+		position:absolute;
+		top: 10px;
+		height:auto;
+		width: auto;
+		
+	}
+	
+	#doble
+	{
+		position: relative;
+		margin: 10px;
+		width: auto;
+		height: 500px;
+		background: #000;
+	}
+	
+	#doble table
+	{
+		position: absolute;
+		top: 20px;
+		
+		
+	}
+	
+	
+	.presentacion
+	{
+		padding: 20px;
+		margin: 10px 0 10px 0 ;
+		width: auto;
+		height: auto;
+		background: #FFFBF0;
+		position: relative;
+	}
+
+	.info
+	{
+		font-family: Bahnschrift;
+		text-align: center;
+		color: black;
+		font-size: 17px;
+		margin: auto;
+		padding: 10px;
+
+	}
+	
+	.contacto
+	{
+		padding: 20px;
+		padding-left: 30px;
+		position: relative;
+		margin-top: 20px;
+		margin-bottom: 80px;
+		width: auto;
+		height: auto;
+		background: #FFFBF0;
+	}
+	
+	p.text
+	{
+		text-align: center;
+		position: relative;
+		padding: 10px;
+		font-family: Bahnschrift;
+		color:#FFFBF0;
+		font-size: 27px;
+		margin: 40px;
+		margin-left: auto;
+		margin-right: auto;
+		width: auto;
+		height: 35px;
+		background: #000;
+	}
+	 
+	.contacto p
+	{
+		text-align: left;
+		margin: 3px;
+		position: relative;
+		font-family: Bahnschrift;
+		font-weight: bolder;
+		color: #000;
+		font-size: 16px;
+		}
+	 
+	.contacto .sinada
+	{
+		position: relative;
+		padding: 30px;
+		height: auto;
+		width: auto;
+		
+	}
