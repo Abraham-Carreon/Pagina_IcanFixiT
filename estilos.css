@@ -182,7 +182,7 @@
 	#doble
 	{
 		position: relative;
-		margin: 10px;
+		margin: auto;
 		width: auto;
 		height: 500px;
 		background: #000;
@@ -191,7 +191,9 @@
 	#doble table
 	{
 		position: absolute;
-		top: 20px;
+		padding: 0px;
+		margin: 24px auto;
+
 		
 		
 	}
