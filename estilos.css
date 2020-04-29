@@ -168,21 +168,14 @@
 		width: auto;
 		height: 250px;
 		background: #000;
-	}
-	
-	.productos table
-	{
-		position:absolute;
-		top: 10px;
-		height:auto;
-		width: auto;
 		
 	}
+	
+	
 	
 	#doble
 	{
 		position: relative;
-		margin: auto;
 		width: auto;
 		height: 500px;
 		background: #000;
@@ -191,13 +184,38 @@
 	#doble table
 	{
 		position: absolute;
-		padding: 0px;
-		margin: 24px auto;
+		top: 18px;
+		height: auto;
+		width: auto;
 
-		
-		
 	}
 	
+	table
+	{
+		position:absolute;
+		top: 7px;
+		height:auto;
+		width: auto;
+		border-collapse: collapse;
+		border: solid 2px black;
+	}
+
+	td
+	{
+		width: 220px;
+		height: 220px;
+		padding: 0;
+		text-align: center;
+		border: solid 8px;
+		background-color: #FFFF;
+	}
+	td p{font-family:Bahnschrift; font-size: 14px; }
+
+	td img
+	{
+		height: 130px;
+		width: 130px;
+	}
 	
 	.presentacion
 	{
@@ -220,6 +238,13 @@
 
 	}
 	
+	.cont{text-align: center;}
+	.cont img
+	{
+		width: 250px;
+		height: 250px;
+		border: solid 4px black;
+	}
 	.contacto
 	{
 		padding: 20px;
