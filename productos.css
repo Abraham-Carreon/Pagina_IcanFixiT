@@ -1,0 +1,102 @@
+*
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	body
+	{
+		background: #A0A0A4;
+	}
+	
+		.productos
+	{
+		position: relative;
+		margin-top: 10px;
+		width: auto;
+		height: 250px;
+		background: #000;
+		
+	}
+	
+		p.text
+	{
+		text-align: center;
+		position: relative;
+		padding: 10px;
+		font-family: Bahnschrift;
+		color:#FFFBF0;
+		font-size: 27px;
+		margin: 40px;
+		margin-left: auto;
+		margin-right: auto;
+		width: auto;
+		height: 35px;
+		background: #000;
+	}
+	
+	p.principal
+	{
+
+		text-align: center;
+		position: relative;
+		padding: 10px;
+		font-family: Bahnschrift;
+		font-size: 30px;
+		font-weight: bolder;
+		color: black;
+		margin: 40px;
+		margin-left: auto;
+		margin-right: auto;
+		width: auto;
+		height: 35px;
+		
+	}
+
+	
+	
+	#doble
+	{
+		position: relative;
+		width: auto;
+		height: 500px;
+		background: #000;
+	}
+	
+	#doble table
+	{
+		position: absolute;
+		top: 18px;
+		height: auto;
+		width: auto;
+
+	}
+	
+	table
+	{
+		position:absolute;
+		top: 7px;
+		height:auto;
+		width: auto;
+		border-collapse: collapse;
+		border: solid 2px black;
+	}
+
+	td
+	{
+		width: 220px;
+		height: 220px;
+		padding: 0;
+		text-align: center;
+		border: solid 8px;
+		background-color: #FFFF;
+	}
+	td p{font-family:Bahnschrift; font-size: 14px; }
+
+	td img
+	{
+		height: 130px;
+		width: 130px;
+	}
+	
