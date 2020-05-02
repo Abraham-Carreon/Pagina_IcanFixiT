@@ -1,0 +1,79 @@
+h1{
+	color:red;
+}
+p.text
+	{
+		text-align: center;
+		position: relative;
+		padding: 10px;
+		font-family: Bahnschrift;
+		color:#FFFBF0;
+		font-size: 27px;
+		margin: 40px;
+		margin-left: auto;
+		margin-right: auto;
+		width: auto;
+		height: 35px;
+		background: #000;
+	}
+header
+	{
+		position: relative;
+		margin: 20px auto;
+		width: 1000px;
+		height: 120px;
+		border-radius: 15%;
+		
+		
+		
+	}
+	
+	header .sinada
+	{
+		position: absolute;
+		top: 10px;
+		left: 30px;
+		width: 185px;
+		height: 95px;
+		background: #2A1FFF;
+		
+	}
+	
+	.inicial
+	{
+		position: absolute;
+		top: 30px;
+		right: 390px;
+		width: 200px;
+		height: 60px;
+		line-height: 60px;
+		font-family: Bahnschrift;
+		font-size: 28px;
+		text-align: center;
+		color: #000;
+		
+	}
+	
+	header .eslogan
+	{
+		position: absolute;
+		text-align: -webkit-center;
+		width: auto;
+		height: auto;
+		top: 20px;
+		left: 55px;
+		font-family: Bahnschrift;
+		font-size: 18px;
+		color: #000;
+	}
+	
+	.mensaje
+	{
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		width: 300px;
+		height: 80px;
+		
+		border-radius: 50%;	
+	}
