@@ -17,10 +17,22 @@
 	<meta charset="utf-8">
 	<title> I Can Fix It </title>
 	 
+
+
+
+
 <!-- Start WOWSlider.com HEAD section -->
-	<link rel="stylesheet" type="text/css" href="engine3/style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" media="screen" />
 	<style type="text/css">a#vlb{display:none}</style>
-	<script type="text/javascript" src="engine3/jquery.js"></script>
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+
+
+<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine2/style.css" media="screen" />
+	<style type="text/css">a#vlb{display:none}</style>
+	<script type="text/javascript" src="engine2/jquery.js"></script>
 <!-- End WOWSlider.com HEAD section -->
 
 </head>
@@ -69,32 +81,62 @@
 </div>
 
 
+
+
 <br><br>
 
 
-<!-- Start WOWSlider.com BODY section id=wowslider-container3 -->
-	<div id="wowslider-container3">
+
+
+
+
+
+<!-- Start WOWSlider.com BODY section id=wowslider-container1 -->
+	<div id="wowslider-container1">
 	<div class="ws_images">
-<a href="#"><img src="data3/images/intel.jpg" alt="intel" title="intel" id="wows0"/></a>
-<a href="#"><img src="data3/images/ssd.jpg" alt="ssd" title="ssd" id="wows1"/></a>
-<a href="#"><img src="data3/images/corei9.jpg" alt="corei9" title="corei9" id="wows2"/></a>
-<a href="#"><img src="data3/images/giga.jpg" alt="giga" title="giga" id="wows3"/></a>
-<a href="#"><img src="data3/images/ryzen.jpg" alt="ryzen" title="ryzen" id="wows4"/></a>
+<a href="#"><img src="data1/images/intel.jpg" alt="intel" title="intel" id="wows0"/></a>
+<a href="#"><img src="data1/images/ssd.jpg" alt="ssd" title="ssd" id="wows1"/></a>
+<a href="#"><img src="data1/images/corei9.jpg" alt="corei9" title="corei9" id="wows2"/></a>
+<a href="#"><img src="data1/images/giga.jpg" alt="giga" title="giga" id="wows3"/></a>
+<a href="#"><img src="data1/images/ryzen.jpg" alt="ryzen" title="ryzen" id="wows4"/></a>
 </div>
 <div class="ws_bullets"><div>
-<a href="#wows0" title="intel"><img src="data3/tooltips/intel.jpg" alt="intel"/></a>
-<a href="#wows1" title="ssd"><img src="data3/tooltips/ssd.jpg" alt="ssd"/></a>
-<a href="#wows2" title="corei9"><img src="data3/tooltips/corei9.jpg" alt="corei9"/>3</a>
-<a href="#wows3" title="giga"><img src="data3/tooltips/giga.jpg" alt="giga"/></a>
-<a href="#wows4" title="ryzen"><img src="data3/tooltips/ryzen.jpg" alt="ryzen"/></a>
+<a href="#wows0" title="intel"><img src="data1/tooltips/intel.jpg" alt="intel"/>1</a>
+<a href="#wows1" title="ssd"><img src="data1/tooltips/ssd.jpg" alt="ssd"/>2</a>
+<a href="#wows2" title="corei9"><img src="data1/tooltips/corei9.jpg" alt="corei9"/>3</a>
+<a href="#wows3" title="giga"><img src="data1/tooltips/giga.jpg" alt="giga"/>4</a>
+<a href="#wows4" title="ryzen"><img src="data1/tooltips/ryzen.jpg" alt="ryzen"/>5</a>
 </div></div>
-<!--
-<a style="display:none" href="http://wowslider.com">Image Slider Download by WOWSlider.com v1.7</a>!-->
+<a style="display:none" href="http://wowslider.com">Image Slider Download by WOWSlider.com v1.7</a>
 	<div id="wowslider-frame"></div>
 	<div id="wowslider-shadow"></div>
 	</div>
-	
-	<script type="text/javascript" src="engine3/script.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+
+
+<!-- Start WOWSlider.com BODY section id=wowslider-container2 -->
+	<div id="wowslider-container2">
+	<div class="ws_images">
+<a href="#"><img src="data2/images/intel.jpg" alt="intel" title="intel" id="wows0"/></a>
+<a href="#"><img src="data2/images/ssd.jpg" alt="ssd" title="ssd" id="wows1"/></a>
+<a href="#"><img src="data2/images/corei9.jpg" alt="corei9" title="corei9" id="wows2"/></a>
+<a href="#"><img src="data2/images/giga.jpg" alt="giga" title="giga" id="wows3"/></a>
+<a href="#"><img src="data2/images/ryzen.jpg" alt="ryzen" title="ryzen" id="wows4"/></a>
+</div>
+<div class="ws_bullets"><div>
+<a href="#wows0" title="intel"><img src="data2/tooltips/intel.jpg" alt="intel"/>1</a>
+<a href="#wows1" title="ssd"><img src="data2/tooltips/ssd.jpg" alt="ssd"/>2</a>
+<a href="#wows2" title="corei9"><img src="data2/tooltips/corei9.jpg" alt="corei9"/>3</a>
+<a href="#wows3" title="giga"><img src="data2/tooltips/giga.jpg" alt="giga"/>4</a>
+<a href="#wows4" title="ryzen"><img src="data2/tooltips/ryzen.jpg" alt="ryzen"/>5</a>
+</div></div>
+<a style="display:none" href="http://wowslider.com">Image Slider Download by WOWSlider.com v1.7</a>
+	<div id="wowslider-frame"></div>
+	<div id="wowslider-shadow"></div>
+	</div>
+	<script type="text/javascript" src="engine2/script.js"></script>
 <!-- End WOWSlider.com BODY section -->
 
 <p class="text"> Productos Nuevos </p>

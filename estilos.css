@@ -145,49 +145,21 @@
 		background: rgba(170, 161, 180  ,1)
 	}
 	
-.publ
-{
-	width: 95%;
-	margin: auto;
-	overflow: hidden;
-}
 
-.publ ul
-{
-	display: flex;
-	padding: 0;
-	width: 200%;
-	
-	animation: cambio 10s infinite alternate;
-	animation-timing-function: ease-in;
-}
+	#wowslider-container1
+	{
+		height: 30%;
+		width: 70%;
+		background: black;
+	}
 
-.publ li
-{
-	margin: auto ;
-	width: 100%;
-	list-style: none;	
-}
+	.ws_images
+	{
+		height: 30%;
+		width: 50%;
+	}
 
-.publ img
-{
-	margin: auto;
-	width: 60%;
-}
 
-@keyframes cambio
-{
-	0% {margin: 0;}
-	20% {margin: 0;}
-	25% {margin-left: -100%;}
-	45% {margin-left: -100%;}
-	50% {margin-left: -200%;}
-	70% {margin-left: -200%;}
-	
-	//75% {margin-left: -300%;}
-	//100% {margin-left: -300%;}
-	
-}
 			
 	.productos
 	{
