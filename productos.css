@@ -140,7 +140,7 @@
 		position:absolute;
 		top: 7px;
 		height:auto;
-		width: auto;
+		width: 100%;
 		border-collapse: collapse;
 		border: solid 2px black;
 	}
