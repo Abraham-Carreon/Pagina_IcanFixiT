@@ -10,8 +10,6 @@
 <body>
 <header>
 
-<!-- <img class="sinada" src="img/Principal/Logo.png">-->
-
 <img class="sinada" src="Logo.png"> 
 			
  <br>
@@ -78,6 +76,34 @@
 <p align="center">          Domingos: Cerrado.
 
 </font>
+
+<p> Para mayores informes </p>
+
+<form>
+	
+<label for="numero"> Ingrese un telefono:  </label>
+<br>
+<input id="tel" type="text" placeholder="Telefono" required="1" >
+<br>
+
+<label for="correo" > Ingrese un correo:  </label>
+<br>
+<input id="correo" type="mail" placeholder="Correo" required="1" >
+<br> <br>
+
+<button onclick="Mymensaje()"> Enviar </button>
+
+<script>
+	
+	function Mymensaje()
+	{
+		alert("Teléfono enviado y correo enviados, un asistente se contactará con usted 😊");
+	}
+
+</script>
+	
+</form>
+
 
 
 </body>

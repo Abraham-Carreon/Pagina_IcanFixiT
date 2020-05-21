@@ -142,7 +142,7 @@
 	}
 	a .boton:active
 	{
-		background: rgba(170, 161, 180  ,1)
+		background: rgba(31, 31, 29  ,1)
 	}
 	
 
@@ -291,4 +291,22 @@
 		height: auto;
 		width: auto;
 		
+	}
+
+	#DR
+	{
+		position: relative;
+		width: auto;
+		height: auto;
+		padding: 2%;
+		background: white;
+		font-family: Bahnschrift;
+		font-size: 1.2em;
+		color: black;
+		font-weight: bolder;
+		text-align: center;
+		border: solid 5px;
+		border-color: black;
+		margin-bottom: 5%;
+
 	}

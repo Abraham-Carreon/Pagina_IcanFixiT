@@ -5,10 +5,19 @@
 	<title>Productos</title>
 	<link rel="stylesheet" type="text/css" href="productos.css">
 
+
 <!-- Start WOWSlider.com HEAD section -->
-	<link rel="stylesheet" type="text/css" href="engine3/style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" media="screen" />
 	<style type="text/css">a#vlb{display:none}</style>
-	<script type="text/javascript" src="engine3/jquery.js"></script>
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+
+
+<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine2/style.css" media="screen" />
+	<style type="text/css">a#vlb{display:none}</style>
+	<script type="text/javascript" src="engine2/jquery.js"></script>
 <!-- End WOWSlider.com HEAD section -->
 
 </head>
@@ -36,23 +45,46 @@
 
 <p class="principal"> Productos </p>
 
-<!-- Start WOWSlider.com BODY section id=wowslider-container3 -->
-	<div id="wowslider-container3">
+
+
+<!-- Start WOWSlider.com BODY section id=wowslider-container1 -->
+	<div id="wowslider-container1">
 	<div class="ws_images">
-<a href="Pagina/PC afrodita.html"><img src="data3/images/afrodita.jpg" alt="AFRODITA" title="AFRODITA" id="wows0"/></a>
-<a href="PC/PC rea.html"><img src="data3/images/rea.jpg" alt="REA" title="REA" id="wows1"/></a>
-<a href="PC/PC_ZEUS_AMD.html"><img src="data3/images/zeus.jpg" alt="ZEUS" title="ZEUS" id="wows2"/></a>
-<a href="Pagina/PC PC basic.html"><img src="data3/images/7350.jpg" alt="7350" title="7350" id="wows3"/></a>
+<a href="#"><img src="data1/images/ares.jpg" alt="ARES" title="ARES" id="wows0"/></a>
+<a href="#"><img src="data1/images/afrodita.jpg" alt="AFRODITA" title="AFRODITA" id="wows1"/></a>
+<a href="#"><img src="data1/images/rea.jpg" alt="REA" title="REA" id="wows2"/></a>
+<a href="#"><img src="data1/images/heracles.jpg" alt="HERACLES" title="HERACLES" id="wows3"/></a>
 </div>
 <div class="ws_bullets"><div>
-<a href="#wows0" title="AFRODITA"><img src="data3/tooltips/afrodita.jpg" alt="AFRODITA"/>1</a>
-<a href="#wows1" title="REA"><img src="data3/tooltips/rea.jpg" alt="REA"/>2</a>
-<a href="#wows2" title="ZEUS"><img src="data3/tooltips/zeus.jpg" alt="ZEUS"/>3</a>
-<a href="#wows3" title="7350"><img src="data3/tooltips/7350.jpg" alt="7350"/>4</a>
+<a href="#wows0" title="ARES"><img src="data1/tooltips/ares.jpg" alt="ARES"/>1</a>
+<a href="#wows1" title="AFRODITA"><img src="data1/tooltips/afrodita.jpg" alt="AFRODITA"/>2</a>
+<a href="#wows2" title="REA"><img src="data1/tooltips/rea.jpg" alt="REA"/>3</a>
+<a href="#wows3" title="HERACLES"><img src="data1/tooltips/heracles.jpg" alt="HERACLES"/>4</a>
 </div></div>
 <a style="display:none" href="http://wowslider.com">Image Slider Download by WOWSlider.com v1.7</a>
 	</div>
-	<script type="text/javascript" src="engine3/script.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+
+
+<!-- Start WOWSlider.com BODY section id=wowslider-container2 -->
+	<div id="wowslider-container2">
+	<div class="ws_images">
+<a href="#"><img src="data2/images/ares.jpg" alt="ARES" title="ARES" id="wows0"/></a>
+<a href="#"><img src="data2/images/afrodita.jpg" alt="AFRODITA" title="AFRODITA" id="wows1"/></a>
+<a href="#"><img src="data2/images/rea.jpg" alt="REA" title="REA" id="wows2"/></a>
+<a href="#"><img src="data2/images/heracles.jpg" alt="HERACLES" title="HERACLES" id="wows3"/></a>
+</div>
+<div class="ws_bullets"><div>
+<a href="#wows0" title="ARES"><img src="data2/tooltips/ares.jpg" alt="ARES"/>1</a>
+<a href="#wows1" title="AFRODITA"><img src="data2/tooltips/afrodita.jpg" alt="AFRODITA"/>2</a>
+<a href="#wows2" title="REA"><img src="data2/tooltips/rea.jpg" alt="REA"/>3</a>
+<a href="#wows3" title="HERACLES"><img src="data2/tooltips/heracles.jpg" alt="HERACLES"/>4</a>
+</div></div>
+<a style="display:none" href="http://wowslider.com">Image Slider Download by WOWSlider.com v1.7</a>
+	</div>
+	<script type="text/javascript" src="engine2/script.js"></script>
 <!-- End WOWSlider.com BODY section -->
 
 <p class="text"> Productos Nuevos </p>
