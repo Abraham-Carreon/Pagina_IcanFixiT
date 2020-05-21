@@ -128,28 +128,32 @@
 	
 	#doble table
 	{
+
+		text-align: center;
 		position: absolute;
 		top: 18px;
 		height: auto;
-		width: auto;
+		width: 100%;
 
 	}
 	
 	table
 	{
-		position:absolute;
-		top: 7px;
+	
+		margin: auto;
 		height:auto;
 		width: 100%;
 		border-collapse: collapse;
 		border: solid 2px black;
+		margin-bottom: 10%; 
+		background: black;
 	}
-
 	td
 	{
 		width: 220px;
 		height: 220px;
 		padding: 0;
+		margin: auto 0; 
 		text-align: center;
 		border: solid 8px;
 		background-color: #FFFF;
