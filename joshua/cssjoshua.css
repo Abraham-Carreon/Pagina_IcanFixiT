@@ -18,3 +18,40 @@ p.text
 		height: 35px;
 		background: #000;
 	}
+
+	input
+	{
+		background: #000;
+		color: #FFF;
+		//display: block;
+		margin: 1% 0;
+
+	}
+
+	input:hover
+	{
+		background: #124;
+		cursor: pointer;
+	}
+
+	button:focus
+	{ border: 1px solid white;  }
+
+	button
+	{
+		display: block;
+		font-size: 1em;
+		background: #000;
+		color:#FFF;
+		border:none;
+		width: 7%;
+		height: auto;
+		border-radius: 50%;
+		margin: 0% 14%;
+	}
+
+	button:hover
+	{
+		background: #124;
+		cursor: pointer;
+	}

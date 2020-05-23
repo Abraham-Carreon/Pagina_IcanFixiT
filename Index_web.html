@@ -51,10 +51,28 @@
 
 <form>
 	
-	<input type="text" placeholder="Buscar">
+	<input type="text" id="buscador" onkeypress="Mensaje(event)" placeholder="Buscar">
+
 
 </form>
 
+<script>
+	
+		function Mensaje(e) 
+	{
+  		tecla = (document.all) ? e.keyCode : e.which;
+  		if (tecla==13)
+  		{
+			
+			console.log("Buscando 😎");
+			alert("Buscando 😎\n"),
+  			alert("Funcion en desarrollo 😊\n");
+  			
+  		}
+		
+	}
+
+</script>
 
 <br><br>
 
@@ -172,7 +190,7 @@
 	<tr>
 		
 		<td> 
-			<a href="./PC/PC artemis.html"><img src="PC armetis.jpg"></a> <p> <br> PC LEGA ÁRTEMIS <br> AMD R3 3200G Con GTX 1650 / RX 5500XT  <br> $ 15,880.00 </p>
+			<a href="./PC/PC artemis(con diseño de pagina).html"><img src="PC armetis.jpg"></a> <p> <br> PC LEGA ÁRTEMIS <br> AMD R3 3200G Con GTX 1650 / RX 5500XT  <br> $ 15,880.00 </p>
 		</td>
 	
 		<td> 
